@@ -23,7 +23,7 @@ def Log(logtext):
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-version = '2.2.1'
+version = '2.3'
 Log(f'Пароли (v.{version}): Запуск\n')
 
 window = tk.Tk()
